@@ -7,6 +7,7 @@ fetch("/.json")
     window.data = data;
     const progressDiv = document.getElementById("progress");
     progressDiv.innerHTML = `
+        <div class="button">Announce Progress 🔊</div>
         <div class="bullet"><div class="title">Completed Items</div><div class="value">${
           data.completedItems
         }</div></div>
